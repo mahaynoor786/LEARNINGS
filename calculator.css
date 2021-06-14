@@ -1,0 +1,41 @@
+input
+{
+	border-radius: 4px;
+	width:100%;
+	height:100%;
+}
+table
+{
+	width:35%;
+	height:80%;
+	border-radius: 10px;
+	background-color:#696969;
+	
+}
+#clear
+{
+	color:#8B008B;
+	font-size: 22px;
+	background-color: #9370D8;
+}
+#clear1
+{
+	color:#8B008B;
+	font-size: 22px;
+	background-color: red;
+}
+#green
+{
+	background-color: green;
+	color:white;
+}
+#display
+{
+	background-color: #F0F8FF;
+	height:80%;
+ text-align: right;
+}
+#button1
+{
+	background-color: #FFFAF0;
+}

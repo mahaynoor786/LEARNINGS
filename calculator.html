@@ -1,0 +1,72 @@
+<!DOCTYPE>
+<html>
+<head>
+<link rel="stylesheet" href="calculator.css"/>
+</head>
+<header>
+	
+	<h1><center><i>SIMPLE CALCULATOR</i></center></h1>
+</header>
+<center>
+<body>
+<form name="calculator">
+<table border="3" >
+<tr>
+<td><input type="button"value="ORPAT-512" id="button1" ></td>
+	<td colspan="4"><input name="display" placeholder="0" id="display" readonly><font color="#D2B48C">LARGE DISPLAY</font></td>
+
+</tr>
+<tr>
+	<td><input type="button"value="7" onclick="calculator.display.value+='7'"></td>
+
+	<td><input type="button"value="8" onclick="calculator.display.value+='8'"></td>
+
+<td><input type="button"value="9" onclick="calculator.display.value+='9'"></td>
+<td><input type="button"value="%" id="clear" onclick="calculator.display.value+='%'"></td>
+<td><input type="button"  value="-" id="clear" onclick="calculator.display.value+='-'"></td>
+<td><input type="button"value="ON/AC" id="green" onclick="calculator.display.value=''"></td>
+<tr>
+	<td><input type="button"value="4" onclick="calculator.display.value+='4'"></td>
+
+	<td><input type="button"value="5" onclick="calculator.display.value+='5'"></td>
+
+<td><input type="button"value="6" onclick="calculator.display.value+='6'"></td>
+<td><input type="button"value="*" id="clear" onclick="calculator.display.value+='*'"></td>
+<td><input type="button"value="/" id="clear" onclick="calculator.display.value+='/'"></td>
+<td><input type="button" class="button gray" 
+    value="mrc" id="clear" onclick="calculator.display.value=''"></td>
+
+</tr>
+<tr>
+	<td><input type="button"value="1" onclick="calculator.display.value+='1'"></td>
+
+	<td><input type="button"value="2" onclick="calculator.display.value+='2'"></td>
+
+<td><input type="button"value="3" onclick="calculator.display.value+='3'"></td>
+<td rowspan="2"><input type="button" id="clear" value="+" onclick="calculator.display.value+='+'"></td>
+<td><input type="button"value="=" id="clear" 
+onclick="calculator.display.value=eval(calculator.display.value)"></td>
+<td><input type="button" class="button gray" 
+   id="clear"  value="m-"  onclick="calculator.display.value+='-'"></td>
+
+</tr>
+<tr>
+	<td><input type="button"value="0" onclick="calculator.display.value+='0'"></td>
+<td><input type="button"value="00"  onclick="calculator.display.value+='00'"></td>
+
+<td><input type="button"value="."  id="clear" onclick="calculator.display.value+='.'"></td>
+<td><input type="button"value="c" id="clear1" onclick="calculator.display.value=''"></td>
+
+<td> <input type="button" class="button gray" value="
+    m+" id="clear"  onclick="calculator.display.value+='+'"></td>
+</tr>
+<tr>
+
+
+
+</tr>
+</table>
+</form>
+</body>
+</center>
+</html>
